@@ -13,7 +13,7 @@ log(desired retention%) / log(current retention%)
 85% keeps it challenging enough to strengthen memory retention
 
 <b>How do I get my current retention</b><br>
-I recommend downloading the addon "True Retention" and then inputting the "true retention%" under the stats field on Anki.
+I recommend downloading the addon "True Retention" and then inputting the "true retention%" under the stats field from Anki.
 
 <b>Why do I even need to change the interval modifier?</b><br>
 Adjusting the interval modifier will allow you increase your "true retention" by increasing/decreasing the frequency you see cards.
