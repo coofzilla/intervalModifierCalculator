@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, 
+     user-scalable=0"
+    />
+    <meta name="description" content="Anki Interval Modifier Calculator">  
+    <link rel="stylesheet" href="../interval modifier/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interval Modifier Calculator</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1>Interval Modifier</h1>
+        <form>
+          <div class="inputContainer">
+            <label for="retention">Desired Retention %:</label>
+            <input
+              type="text"
+              id="retention"
+              name="retention"
+              class="field"
+              placeholder="85"
+              required
+            />
+          </div>
+          <br />
+          <div class="inputContainer">
+            <label for="current">Current Retention %:</label>
+            <input
+              type="text"
+              id="current"
+              name="current"
+              class="field"
+              placeholder="73"
+              required
+            />
+          </div>
+          <div id="finalRow">
+            <input type="button" value="Submit" id="myBtn" />
+            <h2></h2>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="../interval modifier/main.js"></script>
+  </body>
+</html>
