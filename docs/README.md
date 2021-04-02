@@ -1,7 +1,7 @@
 # intervalModifierCalculator
 
 <b>What is this?</b><br>
-This is a simple calculator used to determine the suggested interval modifier % in Anki. 
+A simple calculator used to determine the suggested interval modifier % in Anki. 
 
 <b>What is interval modifier?</b><br>
 Interval modifier allows you to apply a multiplication factor to the intervals Anki generates. At its default of 100% it does nothing; if you set it to 80% for example, intervals will be generated at 80% of their normal size (so a 10 day interval would become 8 days). You can thus use the multiplier to make Anki present cards more or less frequently than it would otherwise, trading study time for retention or vice versa. (anki manual, 2021)
